@@ -1,0 +1,30 @@
+.nav-container {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  height: 12vh;
+  background-color: #1b1b1b;
+}
+.navbar-logo {
+  justify-self: start;
+  margin: 4vh 0 0 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.navbar-links {
+  width: 400px;
+}
+.navbar-links ul {
+  display: flex;
+  justify-content: space-between;
+}
+.mostrar-carrito {
+  font-size: 25px;
+  margin: 3.5vh 20px 0 0;
+  cursor: pointer;
+}
